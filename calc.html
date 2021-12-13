@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./libs/fontawesome/all.min.css">
+        <link rel="stylesheet" href="./css/calc.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item input">0</div>
+
+
+            <div class="item clean" onclick="clean()">C</div>
+            <div class="item back" onclick="back()"><i class="fas fa-backspace"></i></div>
+            <div class="item percent" onclick="percent()">%</div>
+            <div class="item divide" onclick="insert('/')">&divide;</div>
+
+            <div class="item" onclick="insert('7')">7</div>
+            <div class="item" onclick="insert('8')">8</div>
+            <div class="item" onclick="insert('9')">9</div>
+            <div class="item mul" onclick="insert('*')">&times;</div>
+
+            <div class="item" onclick="insert('4')">4</div>
+            <div class="item" onclick="insert('5')">5</div>
+            <div class="item" onclick="insert('6')">6</div>
+            <div class="item sub" onclick="insert('-')">-</div>
+      
+            <div class="item" onclick="insert('1')">1</div>
+            <div class="item" onclick="insert('2')">2</div>
+            <div class="item" onclick="insert('3')">3</div>
+            <div class="item add" onclick="insert('+')">+</div>
+      
+            <div class="item" onclick="constant('e')">e</div>
+            <div class="item zero" onclick="insert('0')">0</div>
+            <div class="item" onclick="insert(',')">,</div>
+            <div class="item equal" onclick="equal()">=</div>
+         </div>
+        </div>
+
+        <script src="./js/calc.js"></script>
+    </body>
+</html>
